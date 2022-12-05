@@ -9,11 +9,11 @@ public class Final extends Applet
     {
         Background.ground(g);
         Background.sky(g);
-/*
-        Moutain.far(g);
-        Moutain.middle(g);
-        Moutain.close(g);
 
+        Mountain.far(g);
+        Mountain.middle(g);
+        Mountain.close(g);
+/*
         River.waterFall(g);
         River.drawRiver(g);
 
