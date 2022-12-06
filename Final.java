@@ -13,12 +13,12 @@ public class Final extends Applet
         Mountain.far(g);
         Mountain.middle(g);
         Mountain.close(g);
-/*
+
         River.waterFall(g);
         River.drawRiver(g);
 
-        Forest.oakTree(g);
-        Forest.rock(g);
+        Forest.firTree(g);
+ /*       Forest.rock(g);
         Forest.pineTree(g);
 */
     }

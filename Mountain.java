@@ -47,6 +47,9 @@ public class Mountain
         Polygon poly = new Polygon();
         Polygon poly2 = new Polygon();
         Polygon poly3 = new Polygon();
+        Polygon poly4 = new Polygon();
+        Polygon poly5 = new Polygon();
+        Polygon poly6 = new Polygon();
         poly.addPoint(0,325);
         poly.addPoint(0,225);
         poly.addPoint(150,100);
@@ -60,9 +63,26 @@ public class Mountain
         g.fillPolygon(poly2);
         poly3.addPoint(800,225);
         poly3.addPoint(950,75);
+        poly3.addPoint(1000,150);
         poly3.addPoint(1000,325);
         poly3.addPoint(700,325);
         g.fillPolygon(poly3);
+        g.setColor(Color.WHITE);
+        poly4.addPoint(90,150);
+        poly4.addPoint(200,150);
+        poly4.addPoint(150,100);
+        poly4.addPoint(90,150);
+        g.fillPolygon(poly4);
+        poly5.addPoint(400,125);
+        poly5.addPoint(500,125);
+        poly5.addPoint(450,75);
+        poly5.addPoint(400,125);
+        g.fillPolygon(poly5);
+        poly6.addPoint(900,125);
+        poly6.addPoint(985,125);
+        poly6.addPoint(950,75);
+        poly6.addPoint(900,125);
+        g.fillPolygon(poly6);
     }
 
 }
