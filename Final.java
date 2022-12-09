@@ -18,9 +18,8 @@ public class Final extends Applet
         River.drawRiver(g);
 
         Forest.firTree(g);
- /*       Forest.rock(g);
+        Forest.rock(g);
         Forest.pineTree(g);
-*/
     }
 }
 
